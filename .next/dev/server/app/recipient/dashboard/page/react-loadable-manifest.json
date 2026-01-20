@@ -1,0 +1,16 @@
+{
+  "[project]/components/LeafletMap.tsx [app-client] (ecmascript, next/dynamic entry)": {
+    "id": "[project]/components/LeafletMap.tsx [app-client] (ecmascript, next/dynamic entry)",
+    "files": [
+      "static/chunks/node_modules_709be256._.js",
+      "static/chunks/components_LeafletMap_tsx_f3c6bb3e._.js",
+      "static/chunks/components_LeafletMap_tsx_22995503._.js",
+      "static/chunks/node_modules_f5af4edf._.js",
+      "static/chunks/node_modules_react-leaflet_lib_index_06fe2d7c.js",
+      "static/chunks/node_modules_b4878278._.js",
+      "static/chunks/node_modules_react-leaflet_lib_index_69636683.js",
+      "static/chunks/node_modules_leaflet_dist_leaflet-src_8608e1e4.js",
+      "static/chunks/node_modules_leaflet_dist_leaflet-src_bfdfab52.js"
+    ]
+  }
+}

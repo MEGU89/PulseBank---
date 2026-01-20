@@ -1,0 +1,15 @@
+{
+  "headers": {
+    "x-nextjs-stale-time": "300",
+    "x-nextjs-prerender": "1",
+    "x-next-cache-tags": "_N_T_/layout,_N_T_/donor/layout,_N_T_/donor/stats/layout,_N_T_/donor/stats/page,_N_T_/donor/stats"
+  },
+  "segmentPaths": [
+    "/_tree",
+    "/_full",
+    "/donor/stats/__PAGE__",
+    "/donor/stats",
+    "/donor",
+    "/_index"
+  ]
+}

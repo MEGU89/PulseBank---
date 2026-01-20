@@ -1,0 +1,33 @@
+{
+  "[project]/components/HospitalRequestsMap.tsx [app-client] (ecmascript, next/dynamic entry)": {
+    "id": "[project]/components/HospitalRequestsMap.tsx [app-client] (ecmascript, next/dynamic entry)",
+    "files": [
+      "static/chunks/components_LeafletMap_tsx_bcdc0bc4._.js",
+      "static/chunks/_daa101a7._.js",
+      "static/chunks/components_HospitalRequestsMap_tsx_791e5c8b._.js",
+      "static/chunks/node_modules_e3d96d1d._.js",
+      "static/chunks/components_LeafletMap_tsx_f3c6bb3e._.js",
+      "static/chunks/components_LeafletMap_tsx_4d44ec41._.js",
+      "static/chunks/node_modules_f5af4edf._.js",
+      "static/chunks/node_modules_react-leaflet_lib_index_004dc5a0.js",
+      "static/chunks/node_modules_b4878278._.js",
+      "static/chunks/node_modules_react-leaflet_lib_index_b2fb8baa.js",
+      "static/chunks/node_modules_leaflet_dist_leaflet-src_8608e1e4.js",
+      "static/chunks/node_modules_leaflet_dist_leaflet-src_e794a478.js"
+    ]
+  },
+  "[project]/components/LeafletMap.tsx [app-client] (ecmascript, next/dynamic entry)": {
+    "id": "[project]/components/LeafletMap.tsx [app-client] (ecmascript, next/dynamic entry)",
+    "files": [
+      "static/chunks/node_modules_1b321b43._.js",
+      "static/chunks/components_LeafletMap_tsx_f3c6bb3e._.js",
+      "static/chunks/components_LeafletMap_tsx_791e5c8b._.js",
+      "static/chunks/node_modules_f5af4edf._.js",
+      "static/chunks/node_modules_react-leaflet_lib_index_c0854151.js",
+      "static/chunks/node_modules_b4878278._.js",
+      "static/chunks/node_modules_react-leaflet_lib_index_0687b5c0.js",
+      "static/chunks/node_modules_leaflet_dist_leaflet-src_8608e1e4.js",
+      "static/chunks/node_modules_leaflet_dist_leaflet-src_a6890b75.js"
+    ]
+  }
+}

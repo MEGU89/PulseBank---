@@ -1,6 +1,0 @@
-{
-  "version": 3,
-  "sources": [],
-  "sections": [
-    {"offset": {"line": 4, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/harsh/Downloads/PulseBank-main/PulseBank-main/components/HospitalMap.tsx"],"sourcesContent":["\"use client\";\r\n\r\nimport dynamic from \"next/dynamic\";\r\nimport React from \"react\";\r\n\r\nconst LeafletMap = dynamic(() => import(\"./LeafletMap\"), { ssr: false });\r\n\r\nexport default function HospitalMap({ activeDonors }: any) {\r\n  return (\r\n    <div className=\"w-full h-full relative\" style={{ position: \"relative\" }}>\r\n      <LeafletMap activeDonors={activeDonors} />\r\n    </div>\r\n  );\r\n}\r\n"],"names":[],"mappings":";;;;;AAEA;;AAFA;;;AAKA,MAAM,aAAa,IAAA,6KAAO,EAAC;;;;;;IAAgC,KAAK;;KAA1D;AAES,SAAS,YAAY,EAAE,YAAY,EAAO;IACvD,qBACE,6LAAC;QAAI,WAAU;QAAyB,OAAO;YAAE,UAAU;QAAW;kBACpE,cAAA,6LAAC;YAAW,cAAc;;;;;;;;;;;AAGhC;MANwB","debugId":null}}]
-}

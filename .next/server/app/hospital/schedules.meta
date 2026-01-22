@@ -1,15 +1,5 @@
 {
   "headers": {
-    "x-nextjs-stale-time": "300",
-    "x-nextjs-prerender": "1",
     "x-next-cache-tags": "_N_T_/layout,_N_T_/hospital/layout,_N_T_/hospital/schedules/layout,_N_T_/hospital/schedules/page,_N_T_/hospital/schedules"
-  },
-  "segmentPaths": [
-    "/_tree",
-    "/_full",
-    "/hospital/schedules/__PAGE__",
-    "/hospital/schedules",
-    "/hospital",
-    "/_index"
-  ]
+  }
 }

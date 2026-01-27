@@ -16,7 +16,7 @@ import requestRoutes from "./routes/request.js";
 import scheduleRoutes from "./routes/schedule.js";
 import hospitalRoutes from "./routes/hospital.js";
 import aiRoutes from "./routes/ai.js";
-import hospitalStatsRoutes from "./routes/hospitalstats.js";
+import hospitalStatsRoutes from "./routes/hospitalStats.js";
 import emailRoutes from "./routes/email.js";
 
 
@@ -28,10 +28,19 @@ const server = http.createServer(app);
 // ----------------------
 // SOCKET.IO
 // ----------------------
+const socketOrigins = [
+  "https://pulsebank.netlify.app",
+  "https://pulsebank-dev.netlify.app",
+  "http://localhost:3000",
+  "http://localhost:3001",
+  process.env.FRONTEND_URL,
+].filter(Boolean);
+
 const io = new Server(server, {
   cors: {
-    origin: "*",
+    origin: socketOrigins,
     methods: ["GET", "POST"],
+    credentials: true,
   },
 });
 
@@ -59,7 +68,20 @@ app.locals.io = io;
 // ----------------------
 // MIDDLEWARE
 // ----------------------
-app.use(cors());
+const allowedOrigins = [
+  "https://pulsebank.netlify.app",
+  "https://pulsebank-dev.netlify.app",
+  "http://localhost:3000",
+  "http://localhost:3001",
+  process.env.FRONTEND_URL,
+].filter(Boolean);
+
+app.use(cors({
+  origin: allowedOrigins,
+  credentials: true,
+  methods: ["GET", "POST", "PUT", "DELETE", "PATCH", "OPTIONS"],
+  allowedHeaders: ["Content-Type", "Authorization"]
+}));
 app.use(express.json());
 
 // ----------------------

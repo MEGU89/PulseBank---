@@ -7,6 +7,11 @@ import { jwtDecode } from "jwt-decode";
 import { Clock, CheckCircle, AlertCircle, Hospital, ArrowLeft } from "lucide-react";
 import Link from "next/link";
 
+// Required for static export - returns empty array since IDs are dynamic
+export function generateStaticParams() {
+  return [];
+}
+
 export default function RequestStatusPage() {
   const { id: requestId } = useParams();   // Get request ID from URL
   const router = useRouter();
